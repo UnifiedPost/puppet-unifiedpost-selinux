@@ -35,7 +35,7 @@
 #   include selinux::disabled
 #
 class selinux (
-  $state = 'permissive',
+  $state = 'permissive'
 ) {
 
   case $state {
